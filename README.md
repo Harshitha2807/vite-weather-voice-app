@@ -1,6 +1,5 @@
 # Vite Weather Voice App
-
-C:\Users\vasu2\OneDrive\VS Code\weather-app\Screenshot (102).png
+![Alt text for the image](C:\Users\vasu2\OneDrive\VS Code\weather-app\Screenshot (102).png "Optional title for the image")
 
 ## 🚀 Overview
 
