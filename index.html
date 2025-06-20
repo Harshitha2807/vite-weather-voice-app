@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Weather App - Live Forecast</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <section id="weather-wrapper">
+            <h1>🌤️ Weather Forecast</h1>
+            
+            <div id="weather-search">
+                <input id="search" type="text" placeholder="Enter city name or ZIP code" />
+                <button id="submit" onclick="fetchWeather()">Search</button>
+                <button id="voice-search-btn" onclick="startVoiceSearch()">🎙️</button>
+                <button id="location-btn" onclick="getCurrentLocation()">📍 My Location</button>
+            </div>
+
+            <div id="voice-feedback" style="display: none;"></div>
+
+            <div id="weather-data" style="display: none;"></div>
+        </section>
+    </main>
+
+    <script type="module" src="/script.js"></script>
+
+    <script src="config.js"></script>
+
+</body>
+</html>
